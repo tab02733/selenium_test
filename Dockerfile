@@ -2,7 +2,7 @@
 FROM python:3.9
 
 # Keeps Python from generating .pyc files in the container
-ENV key=value PYTHONDONTWRITEBYTECODE=1
+ENV PYTHONDONTWRITEBYTECODE=1
 
 # Turns off buffering for easier container logging
 ENV PYTHONUNBUFFERED=1
