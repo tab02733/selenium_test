@@ -1,0 +1,5 @@
+containerからselenumを使うときのメモ
+
+M1 Macだとcontainer buildに失敗するので、GoogleCloudでGCEを使ってVMインスタンスを作成する。
+それにDockerとGitをインストールして、VMインスタンス上で作成するか、CI/CDでcontainer作る。
+
